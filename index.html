@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/My_Logo.jpeg">
+    <meta name="description" content="I'm a Cybersecurity professional who loves diving into the world of digital security. I enjoy using Python to solve tricky problems and keep systems safe. My focus is on protecting digital spaces while constantly learning and growing in this exciting field.">
+    <meta name="author" content="Satyajit Sethy">
+    <title>Satyajit Sethy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Satyajit Sethy</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1 class="home-title">
+                        Hi, I'm <span class="gradient-text">Satyajit Sethy</span>
+                    </h1>
+                    <div class="typing-container">
+                        <span class="typing-text">I'm a </span>
+                        <span class="typing-display" id="typingElement"></span>
+                        <span class="typing-cursor">|</span>
+                    </div>
+                    <p class="home-description">
+                        Cybersecurity Professional passionate about protecting digital spaces and solving complex security challenges.
+                    </p>
+                    <div class="home-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="home-visual">
+                    <div class="cyber-card">
+                        <div class="card-inner">
+                            <div class="tech-icons">
+                                <div class="icon python">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="icon shield">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="icon code">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="icon cloud">
+                                    <i class="fas fa-cloud"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/My_Logo.jpeg" alt="Satyajit Sethy" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <p>
+                        I'm a Cybersecurity professional who loves diving into the world of digital security. 
+                        I enjoy using Python to solve tricky problems and keep systems safe. My focus is on 
+                        protecting digital spaces while constantly learning and growing in this exciting field.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Security Focused</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="cybersecurity">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>Advanced threat protection and security analysis</p>
+                </div>
+                <div class="skill-card" data-skill="ethical-hacking">
+                    <div class="skill-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3>Ethical Hacking</h3>
+                    <p>Penetration testing and vulnerability assessment</p>
+                </div>
+                <div class="skill-card" data-skill="python">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Security automation and tool development</p>
+                </div>
+                <div class="skill-card" data-skill="automation">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automation</h3>
+                    <p>Security workflow automation</p>
+                </div>
+                <div class="skill-card" data-skill="prompt-engineering">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Prompt Engineering</h3>
+                    <p>AI security and optimization</p>
+                </div>
+                <div class="skill-card" data-skill="java">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java</h3>
+                    <p>Enterprise security applications</p>
+                </div>
+                <div class="skill-card" data-skill="javascript">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Web security and frontend development</p>
+                </div>
+                <div class="skill-card" data-skill="database">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Security</h3>
+                    <p>MySQL, MongoDB security</p>
+                </div>
+                <div class="skill-card" data-skill="aws">
+                    <div class="skill-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS</h3>
+                    <p>Cloud security and infrastructure</p>
+                </div>
+                <div class="skill-card" data-skill="git">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and collaboration</p>
+                </div>
+                <div class="skill-card" data-skill="docker">
+                    <div class="skill-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <h3>Docker</h3>
+                    <p>Container security</p>
+                </div>
+                <div class="skill-card" data-skill="penetration">
+                    <div class="skill-icon">
+                        <i class="fas fa-crosshairs"></i>
+                    </div>
+                    <h3>Penetration Testing</h3>
+                    <p>Comprehensive security testing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Nginx Website Deployer</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/sethysatyajit/Nginx-Website-Deployer" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>A professional-grade Bash script to automate Nginx website deployments from Git repositories. Perfect for quick staging/production deployments.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">DevOps</span>
+                        <span class="tech-tag">Automation</span>
+                        <span class="tech-tag">CyberSecurity</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Auto Pentesting Toolkit</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/sethysatyajit/Auto-Pentesting-Toolkit" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>A comprehensive bash script that automates various penetration testing tools including Nmap, Hydra, Dirb, Gobuster, and Metasploit with an easy-to-use menu interface.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">CyberSecurity</span>
+                        <span class="tech-tag">Penetration Testing</span>
+                        <span class="tech-tag">Ethical Hacking</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Contact Management System Python</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/sethysatyajit/Contact-Management-System-Python" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>A simple yet powerful command-line contact management system built with Python. Store and organize your contacts efficiently!</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">JSON</span>
+                        <span class="tech-tag">Python Developer</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Feel free to reach out through any of these platforms:</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/thesatyajitsethy/" class="social-link instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/satyajitsethy/" class="social-link linkedin" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/sethysatyajit" class="social-link github" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Satyajit Sethy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
